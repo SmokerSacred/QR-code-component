@@ -1,3 +1,66 @@
-body {
-  background-color: green;
+/*White: hsl(0, 0%, 100%) 
+  Light gray: hsl(212, 45%, 89%) 
+  Grayish blue: hsl(220, 15%, 55%) 
+  Dark blue: hsl(218, 44%, 22%)*/
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+body{
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.container{
+  background-color: hsl(0, 0%, 100%);
+  width: 20rem;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  border-radius: 1rem;
+  height: 30rem;
+  
+}
+
+img{
+  width: 18rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 0.624rem;
+}
+
+h1{
+  color: hsl(218, 44%, 22%);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
+p{
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0.5rem 1.5rem 0rem 1.5rem;
+}
+.icon{
+  width: 0px;
+  height: 0px;
+  visibility: hidden;
+}
+
+
+ .attribution {
+  margin-top: -2rem;
+   font-size: 11px;
+   text-align: center;
+}
+    
+.attribution a {
+   color: hsl(228, 45%, 44%);
+ }
